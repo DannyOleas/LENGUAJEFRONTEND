@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Registro de Usuario</h1> 
+   <form action="">
+        <fieldset>
+            <legend>Registro de Usuario </legend>
+            <label for="Nombre">Nombre</label> <input placeholder="Escriba aqui su nombre" name="Nombre" id="Nombre" type="text" required maxlength="10"> 
+            <br>
+            <label for="Apellido">Apellido</label> <input placeholder="Escriba aquí su apellido" name="Apellido" id="Apellido" type="text" required maxlength="15">
+            <br>
+            <label for="Edad">Edad</label> <input step="5" name="Edad" id="Edad" type="number" min="0" max="90">
+            <br>
+            <label for="Fecha de nacimiento"> Fecha de nacimiento </label> <input type="date"> <label for=""> Hora de nacimiento</label> <input type="time">
+            <label for="">sexo</label> <br>
+            <label for="">Masculino</label> <input name="sexo" type="radio">
+            <label for="">Femenino</label> <input name="sexo" type="radio">
+            <br>
+            <label for="">Color Favorito </label> <input type="color">
+            <br>
+            <label for="">Música Favorita</label> <br>
+            <label for="">Jazz</label> <input type="checkbox">
+            <label for="">Salsa Romántica</label> <input type="checkbox">
+            <label for="">Boleros</label> <input type="checkbox">
+            <br>
+            <label for="">Email </label> <input type="email">
+            <br>
+            <label for="">Importar tu foto</label> <input type="file" accept="jpg" >
+            <br>
+            <input type="hidden">
+            <label for="">Contraseña</label> <input type="password">
+        </fieldset>
+        <button type="submit"> Enviar </button>
+   </form>
+</body>
+</html>
